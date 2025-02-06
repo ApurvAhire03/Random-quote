@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Inter Tight", sans-serif;
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(to bottom, rgba(7, 7, 7, 0.884), violet, rgba(7, 7, 7, 0.884)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#quote::before, #quote::after {
+    content: '"';
+}
+
+#author {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#author::before {
+    content: '- ';
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: violet;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgb(61, 10, 83);
+    color: #fff;
+}
