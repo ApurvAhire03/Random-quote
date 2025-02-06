@@ -7,14 +7,14 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     font-family: "Inter Tight", sans-serif;
     text-align: center;
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     /* background: linear-gradient(to bottom, rgba(7, 7, 7, 0.884), violet, rgba(7, 7, 7, 0.884)); */
     display: flex;
